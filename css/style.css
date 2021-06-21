@@ -10,3 +10,40 @@ body {
     margin: 5rem auto;
     max-width: 1170px;
 }
+
+/* Countdown Timer */
+
+.gift-img {
+    margin-bottom: 2rem;
+}
+
+.gift-info h3 {
+    text-transform: uppercase;
+    color: hsl(205,72%,37%);
+}
+
+.gift-info p {
+    color: hsl(209,23%,60%);
+}
+
+.date {
+    color: hsl(210,22%,49%);
+}
+
+@media screen and (min-width: 992px) {
+    .section-center {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        gap: 3rem;
+        width: 95vw;
+    }
+
+    .gift-img {
+        margin-bottom: 0;
+    }
+}
+
+.gift-info p {
+    margin: 2rem 0;
+}
