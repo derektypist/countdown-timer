@@ -32,4 +32,6 @@ const items = document.querySelectorAll('.deadline-format h4');
 // Create Date
 let futureDate = new Date(2021,5,21,17,0,0);
 const year = futureDate.getFullYear();
-giveaway.textContent = `giveaway ends on ${year}`;
+const hours = futureDate.getHours();
+const minutes = futureDate.getMinutes();
+giveaway.textContent = `giveaway ends on ${year} ${hours}:${mins}`;
