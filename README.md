@@ -12,6 +12,8 @@ As a user, I expect the countdown to be in the format days, hours, minutes and s
 
 If the deadline has passed, it will display a message saying that the giveaway has expired.
 
+Days, Hours, Minutes and Seconds are Integers.
+
 ## Features
 
 A countdown timer or message stating that the giveaway has expired.
