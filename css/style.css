@@ -1,0 +1,12 @@
+/* Global Styles and Classes */
+body {
+    font-family: "Roboto", Arial, Verdana, sans-serif;
+    background: hsl(210,36%,96%);
+    color: hsl(209,61%,16%);
+}
+
+.section-center {
+    width: 90vw;
+    margin: 5rem auto;
+    max-width: 1170px;
+}
