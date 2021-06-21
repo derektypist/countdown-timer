@@ -57,7 +57,15 @@ function getRemainingTime() {
     const today = new Date().getTime();
     const t = futureTime - today;
 
-    // Values in ms
+    /*
+        1s = 1000ms
+        1m = 60s
+        1hr = 60m
+        1d = 24hr
+        Values in milliseconds
+
+    */
+    
     const oneDay = 24 * 60 * 60 * 1000;
     const oneHour = 60 * 60 * 1000;
     const oneMinute = 60 * 1000;
@@ -95,4 +103,5 @@ function getRemainingTime() {
 
 // Countdown
 let countdown = setInterval(getRemainingTime,1000);
+// Set Initial Values
 getRemainingTime();
