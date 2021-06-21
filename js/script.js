@@ -28,3 +28,8 @@ const weekdays = [
 const giveaway = document.querySelector('.giveaway');
 const deadline = document.querySelector('.deadline');
 const items = document.querySelectorAll('.deadline-format h4');
+
+// Create Date
+let futureDate = new Date(2021,5,21,17,0,0);
+const year = futureDate.getFullYear();
+giveaway.textContent = `giveaway ends on ${year}`;
