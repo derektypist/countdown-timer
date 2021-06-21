@@ -30,7 +30,7 @@ const deadline = document.querySelector('.deadline');
 const items = document.querySelectorAll('.deadline-format h4');
 
 // Create Date
-let futureDate = new Date(2021,3,27,8,0,0);
+let futureDate = new Date(2021,5,27,8,0,0);
 const year = futureDate.getFullYear();
 const hours = futureDate.getHours();
 const minutes = futureDate.getMinutes();
@@ -80,6 +80,7 @@ function getRemainingTime() {
         item.innerHTML = format(values[index]);
     });
 
+    // Display Expiry Message if Deadline has passed
     if (t<0) {
         clearInterval(countdown);
         deadline.innerHTML = `<h4 class="expired">sorry, this giveaway has expired</h4>`;
