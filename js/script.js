@@ -30,7 +30,7 @@ const deadline = document.querySelector('.deadline');
 const items = document.querySelectorAll('.deadline-format h4');
 
 // Create Date
-let futureDate = new Date(2021,5,27,8,0,0);
+let futureDate = new Date(2021,3,27,8,0,0);
 const year = futureDate.getFullYear();
 const hours = futureDate.getHours();
 const minutes = futureDate.getMinutes();
