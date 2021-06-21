@@ -48,7 +48,7 @@ const date = futureDate.getDate();
 // Get the Weekday (e.g. Sunday)
 const weekday = weekdays[futureDate.getDay()];
 
-giveaway.textContent = `giveaway ends on ${year} ${hours}:${minutes}am`;
+giveaway.textContent = `giveaway ends on ${weekday}, ${date} ${month} ${year} ${hours}:${minutes}am`;
 
 // Future time in ms
 const futureTime = futureDate.getTime();
