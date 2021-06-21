@@ -96,7 +96,7 @@ function getRemainingTime() {
     // Display Expiry Message if Deadline has passed
     if (t<0) {
         clearInterval(countdown);
-        deadline.innerHTML = `<h4 class="expired">sorry, this giveaway has expired</h4>`;
+        deadline.innerHTML = `<h4 class="expired">sorry, this giveaway has expired!</h4>`;
     }
 
 }
