@@ -30,11 +30,27 @@ const deadline = document.querySelector('.deadline');
 const items = document.querySelectorAll('.deadline-format h4');
 
 // Create Date
-let futureDate = new Date(2021,5,21,17,0,0);
+let futureDate = new Date(2021,6,1,8,0,0);
 const year = futureDate.getFullYear();
 const hours = futureDate.getHours();
 const minutes = futureDate.getMinutes();
 
+// Get the Month (e.g. June)
 let month = futureDate.getMonth();
+month = months[month];
+const date = futureDate.getDate();
+
+// Get the Weekday (e.g. Sunday)
+const weekday = weekdays[futureDate.getDay()];
 
 giveaway.textContent = `giveaway ends on ${year} ${hours}:${minutes}am`;
+
+// Future time in ms
+const futureTime = futureDate.getTime();
+
+function getRemainingTime() {
+    const today = new Date().getTime();
+    const t = futureTime - today;
+}
+
+getRemainingTime();
