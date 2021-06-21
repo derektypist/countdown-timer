@@ -7,6 +7,10 @@ body {
     font-size: 0.875rem;
 }
 
+img {
+    display: block;
+}
+
 h4 {
     letter-spacing: 0.25rem;
     text-transform: capitalize;
