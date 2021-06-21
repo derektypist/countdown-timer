@@ -68,6 +68,7 @@ function getRemainingTime() {
     // Set Values Array
     const values = [days,hours,minutes,seconds];
 
+    // Function to Format Values
     function format(item) {
         if (item<10) {
             return (item = `0${item}`);
