@@ -7,6 +7,13 @@ body {
     font-size: 0.875rem;
 }
 
+h4 {
+    letter-spacing: 0.25rem;
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;   
+}
+
 .section-center {
     width: 90vw;
     margin: 5rem auto;
