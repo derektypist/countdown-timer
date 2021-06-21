@@ -80,7 +80,8 @@ function getRemainingTime() {
         item.innerHTML = format(values[index]);
     });
 
-
 }
 
+// Countdown
+let countdown = setInterval(getRemainingTime,1000);
 getRemainingTime();
